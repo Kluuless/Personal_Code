@@ -1,0 +1,45 @@
+#BlueJ class context
+comment0.target=BowlingScore
+comment0.text=\r\n\ BowlingScore\ -\ the\ scorecard\ for\ one\ bowler\r\n\ \r\n\ @author\ Mr.\ Funk\ \r\n\ @version\ 1.0\r\n
+comment1.params=bowler\ rolls
+comment1.target=BowlingScore(java.lang.String,\ java.lang.String[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BowlingScore\r\n
+comment10.params=
+comment10.target=boolean\ isValidGame()
+comment10.text=\r\n\ isValidGame\ -\ determines\ whether\ or\ not\ the\ rolls\ represent\ a\ valid\ game.\ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ A\ valid\ game\ may\ be\ either\ complete\ or\ incomplete.\r\n
+comment11.params=
+comment11.target=int\ getOpenFrame()
+comment11.text=\r\n\ @return\ -\ the\ first\ open\ frame\ (1\ -\ 10).\ \ \r\n\ \ \ \ \ \ \ \ \ -\ if\ it\ is\ a\ completed\ game,\ return\ -1\ \ \ \ \ \ \r\n
+comment12.params=
+comment12.target=java.lang.String\ getBowler()
+comment13.params=
+comment13.target=java.lang.String[]\ getRolls()
+comment14.params=other
+comment14.target=boolean\ equals(java.lang.Object)
+comment15.params=
+comment15.target=void\ print()
+comment16.params=args
+comment16.target=void\ main(java.lang.String[])
+comment16.text=\r\n\ TESTS\ THE\ BOWLINGSCORE\ CLASS\ \r\n
+comment2.params=bowler
+comment2.target=BowlingScore(java.lang.String)
+comment3.params=
+comment3.target=int\ getScore()
+comment3.text=\r\n\ getScore\ -\ calculates\ score\ of\ game\r\n\ \r\n\ @precondition\ -\ the\ data\ in\ rolls\ represents\ a\ valid,\ completed\ game\r\n\ @return\ -\ the\ scored\ result\ of\ the\ game,\ -1\ if\ game\ is\ unfinished\r\n
+comment4.params=frameNumber
+comment4.target=int\ getFrameScore(int)
+comment4.text=\r\n\ @precondition\ frameNumber\ >\=\ 0\ and\ <\=\ 9\ (the\ original\ frame\ -\ 1)\r\n
+comment5.params=other
+comment5.target=int\ compareTo(BowlingScore)
+comment5.text=\r\n\ compareTo\ -\ For\ a\ completed\ game,\ compare\ by\ score\r\n\ \ \ \ \ \ \ \ -\ A\ complete\ game\ is\ considered\ larger\ any\ incomplete\ game\r\n\ \ \ \ \ \ \ \ -\ For\ an\ incomplete\ game,\ compare\ by\ number\ of\ completed\ frames\ \r\n\ @precondition\ \u2013\ the\ game\ is\ a\ valid\ game,\ complete\ or\ incomplete\r\n
+comment6.params=firstRoll\ secondRoll
+comment6.target=boolean\ addFrame(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ addFrame\ \ -\ add\ the\ result\ of\ two\ rolls\ to\ the\ first\ (next)\ open\ frame\r\n\ @precondition\ -\ the\ two\ rolls\ represents\ a\ valid\ frame\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ the\ game\ is\ not\ yet\ finished\ and\ not\ in\ the\ 10th\ frame\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ a\ strike\ is\ recorded\ as\ firstRoll\ \=\=\ \u201CX\u201D\ and\ secondRoll\ \=\=\ \u201C\u201D\r\n\ @return\ -\ true\ if\ add\ was\ successful,\ false\ otherwise\ (preconditions\ not\ met)\r\n\ \ \ \ \ \ \ \ \ -\ if\ false,\ no\ game\ update\ occurs\ \ \ \ \r\n
+comment7.params=firstRoll\ secondRoll
+comment7.target=boolean\ isValidFrame(java.lang.String,\ java.lang.String)
+comment8.params=firstRoll\ secondRoll\ thirdRoll
+comment8.target=boolean\ addFrame(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.text=\r\n\ addFrame\ \ -\ add\ the\ result\ of\ two\ or\ three\ rolls\ to\ the\ 10th\ frame\r\n\ @precondition\ -\ the\ two\ rolls\ represents\ a\ valid\ frame\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ the\ game\ is\ in\ the\ 10th\ frame\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ if\ there\ is\ not\ "mark"\ (strike\ or\ spare)\ before,\ thirdRoll\ \=\=\ ""\r\n\ @return\ -\ true\ if\ add\ was\ successful,\ false\ otherwise\ (preconditions\ not\ met)\ \ \ \ \r\n\ \ \ \ \ \ \ \ \ -\ if\ false,\ no\ game\ update\ occurs\ \ \ \ \ \r\n
+comment9.params=firstRoll\ secondRoll\ thirdRoll
+comment9.target=boolean\ isValidFrame(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=17

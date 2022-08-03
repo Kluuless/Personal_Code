@@ -1,0 +1,8 @@
+function logout(req, res) {
+	if (req.session.value) { req.session.destroy(); }
+	else { console.log("Not logged in, can not logout"); }
+	res.statusCode = 302;
+	res.setHeader("Content-type","text/html");
+	res.setHeader("Location","/login.html");
+	res.end();
+}

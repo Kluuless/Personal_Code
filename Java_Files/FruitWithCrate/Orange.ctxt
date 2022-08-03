@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Orange
+comment0.text=\r\n\ Orange\ -\ a\ citrus\ fruit\r\n\ \r\n\ @author\ Mr.\ Funk\ \r\n\ @version\ October\ 1,\ 2007\r\n
+comment1.params=variety\ weight\ acidity
+comment1.target=Orange(java.lang.String,\ double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Orange\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+numComments=4

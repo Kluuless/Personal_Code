@@ -1,0 +1,14 @@
+a) isbn:0451450523
+Thus is a URN, which is also a URI.
+
+b) http://www.cs.umn.edu/academics/classes.php
+This is a URL, which is also a URI.
+
+c) telnet 195.0.1.12:80
+This is just a URI.
+
+d) mailto:Jim.Smith@acme.com
+This is a URN that contains a URL. URNs are also URIs.
+
+e) tel:19146286389
+This just a URI.

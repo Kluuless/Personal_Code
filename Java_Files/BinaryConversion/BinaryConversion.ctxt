@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BinaryConversion
+comment0.text=\r\n\ BinaryConversion\ -\ convert\ a\ number\ between\ decimal\ and\ binary.\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=n
+comment1.target=BinaryConversion(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BinaryDemo\r\n\ \r\n\ @precondition\ \u2013\ n\ is\ a\ non-negative\ integer\ in\ base\ 10\r\n
+comment2.params=n
+comment2.target=java.lang.String\ toBinary(int)
+comment2.text=\r\n\ HELPER\ METHOD\ -\ turns\ any\ integer\ n\ into\ binary\r\n\ \r\n\ @param\ \ \ The\ number\ to\ be\ converted\r\n\ \r\n\ @return\ \ The\ number\ n\ in\ base\ 2\ as\ a\ String\r\n
+comment3.params=
+comment3.target=boolean\ toBase2()
+comment3.text=\r\n\ Convert\ to\ base\ 2\r\n\ \r\n\ @precondition\ -\ the\ number\ is\ in\ base\ 10\r\n\ @postcondition\ -\ update\ the\ base\ to\ 2\r\n\ @return\ -\ true\ if\ the\ precondition\ is\ met,\ false\ otherwise\r\n
+comment4.params=n
+comment4.target=java.lang.String\ reverseDigits(java.lang.String)
+comment5.params=n
+comment5.target=int\ toBaseTen(java.lang.String)
+comment6.params=
+comment6.target=boolean\ toBase10()
+comment6.text=\r\n\ Convert\ to\ base\ 10\r\n\ \r\n\ @precondition\ -\ the\ number\ is\ in\ base\ 2\r\n\ @postcondition\ -\ update\ the\ base\ to\ 10\ \ \ \ \ \ \r\n\ @return\ -\ true\ if\ the\ precondition\ is\ met,\ false\ otherwise\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

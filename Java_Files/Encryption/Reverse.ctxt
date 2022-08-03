@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=myText
+comment0.target=Reverse(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ class\ Reverse\r\n\ \r\n\ @param\ \ \ The\ text\ in\ the\ message\r\n
+comment1.params=
+comment1.target=void\ encrypt()
+comment1.text=\r\n\ Mutator\ methods\ for\ class\ Reverse\r\n\ \r\n\ Defines\ encrypt()\ as\ reversing\ the\ text\ from\ back\ to\ front\r\n
+comment2.params=
+comment2.target=void\ decrypt()
+comment2.text=\r\n\ Reverts\ and\ reverses\ the\ text\ back\ to\ the\ original\r\n
+numComments=3

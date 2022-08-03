@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Films
+comment0.text=\r\n\ Store\ Film\ objects\ in\ an\ ArrayList\r\n\ \r\n\ @author\ Mr.\ Funk\ and\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=filename
+comment1.target=Films(java.lang.String)
+comment1.text=\ \ \r\n\ @param\ the\ location\ of\ the\ file\ containing\ the\ list\ of\ names\r\n
+comment10.params=oldData
+comment10.target=java.util.ArrayList\ mergeSort(java.util.ArrayList)
+comment11.params=
+comment11.target=void\ mergeSort()
+comment2.params=
+comment2.target=java.util.ArrayList\ getData()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ print()
+comment5.params=year
+comment5.target=java.lang.String\ searchForFilmByYear(int)
+comment6.params=start\ end\ year
+comment6.target=java.lang.String\ searchForFilmByYear(int,\ int,\ int)
+comment7.params=title
+comment7.target=int\ searchForFilmByTitle(java.lang.String)
+comment8.params=word
+comment8.target=java.util.ArrayList\ filmsContainingTheWord(java.lang.String)
+comment9.params=films1\ films2
+comment9.target=java.util.ArrayList\ merge(java.util.ArrayList,\ java.util.ArrayList)
+numComments=12

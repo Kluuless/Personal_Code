@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ReadingDemo
+comment0.text=\r\n\ ReadingDemo\ -\ how\ to\ read\ in\ a\ file\ of\ String\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ split\ it\ along\ the\ tab\r\n\ \r\n\ @author\ Mr.\ Funk\r\n\ @version\ 3/21/2018\r\n
+comment1.params=filename
+comment1.target=ReadingDemo(java.lang.String)
+comment1.text=\ \ \r\n\ @param\ the\ location\ of\ the\ file\ containing\ the\ list\ of\ names\r\n
+comment2.params=
+comment2.target=void\ print()
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ Shape\ -\ has\ a\ getArea()\ and\ getPerimeter()\ method\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=double\ getArea()
+comment1.text=\r\n\ getArea\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ the\ area\ of\ the\ shape\ \r\n
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment2.text=\r\n\ getPerimeter\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ the\ perimeter\ of\ the\ shape\r\n
+numComments=3

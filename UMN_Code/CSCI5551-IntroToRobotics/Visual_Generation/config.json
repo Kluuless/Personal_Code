@@ -1,0 +1,15 @@
+{
+	"width": 6,
+	"height": 6,
+	"shrink": 3,
+	"update frequency": 20,
+	"speed minimum": 2,
+	"speed maximum": 4,
+	"kill bar width": 80,
+	"maximum arrows": 5,
+	"spawn minimum": 400,
+	"spawn maximum": 1000,
+	"game length": 60,
+	"hide ui": true,
+	"updates_per_capture": 10
+}

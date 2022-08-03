@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Blink</title>
+    <script>
+        star_on = true;
+        BIRTHDAY = 1996;
+        var time1;
+
+        function stopBlink(){ clearInterval(time1);}
+
+        function blink(){
+            //<POSITIONONE>
+            time1=window.setInterval(changeStarState,BIRTHDAY);
+			time1=window.setInterval(changeStarState,BIRTHDAY);
+        }
+
+        function changeStarState(){
+          var star = document.getElementsByClassName("img-rounded").item(0);
+          if (star_on == true){
+            star_on = !star_on;
+            star.setAttribute("src", "star_off.png")
+          }
+          else{
+            star_on = !star_on;
+            star.setAttribute("src", "star_on.png")
+          }
+        }
+    </script>
+</head>
+<body>
+        <div id="locator"><img src="star_on.png" id=
+        "large_image" class="img-rounded" alt="star"></div>
+
+        <div class="button-panel">
+          <button id="blkButton" onClick="blink()">Blink!</button>
+          <button id="stopButton" onClick="stopBlink()">Stop!</button>
+        </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Drawing
+comment0.text=\r\n\ Testing\ out\ drawing\ of\ shapes\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Drawing()
+comment2.params=a
+comment2.target=void\ main(java.lang.String[])
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+numComments=4

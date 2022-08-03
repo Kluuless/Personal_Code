@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ The\ Car\ clas\ represents\ car\ fuel\ efficiency\ and\ mileage\r\n\ \r\n\ @author\ Mr.\ Funk\r\n\ @version\ 1.0\r\n
+comment1.params=myEfficiency
+comment1.target=Car(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Car\r\n
+comment2.params=
+comment2.target=double\ getGasInTank()
+comment2.text=\r\n\ getGasInTank\ -\ gets\ the\ amount\ of\ gas\ in\ the\ tank\r\n\ \r\n\ @return\ \ \ \ \ \ the\ amount\ of\ gas\ in\ the\ tank\r\n
+comment3.params=
+comment3.target=double\ getMileage()
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=gallons
+comment6.target=void\ addGas(double)
+comment6.text=\r\n\ addGas\ -\ adds\ gas\ to\ the\ tank\r\n\ \r\n\ @param\ \ gallons\ \ \ the\ quantity\ of\ gas\ to\ be\ added\ (in\ gallons)\r\n
+comment7.params=distance
+comment7.target=void\ drive(double)
+comment7.text=\r\n\ drive\ -\ update\ quantity\ of\ gas\ and\ mileage\ to\ reflect\ fuel\ usage\r\n\ \r\n\ @param\ \ distance\ \ \ the\ number\ of\ miles\ the\ car\ was\ driven\r\n
+numComments=8

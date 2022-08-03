@@ -1,0 +1,14 @@
+Longsword
+Greatsword
+Dual Blades
+Insect Glaive
+Lance
+Gunlance
+Hunting Horn
+Hammer
+Bow
+Light Bowgun
+Heavy Bowgun
+Sword and Shield
+Switch Axe
+Charge Blade

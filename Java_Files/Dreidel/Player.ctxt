@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ of\ a\ Dreidell\ game\ -\ Do\ not\ change\ this\ class\r\n\r\n\ @author\ Mr.\ Funk\r\n\ @version\ 1.0\r\n
+comment1.params=name\ initialNumberOfPieces
+comment1.target=Player(java.lang.String,\ int)
+comment1.text=\r\n\ Counstructor\ for\ objects\ of\ class\ Player\r\n
+comment2.params=count
+comment2.target=void\ add(int)
+comment3.params=
+comment3.target=int\ shtel()
+comment4.params=
+comment4.target=boolean\ isOut()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

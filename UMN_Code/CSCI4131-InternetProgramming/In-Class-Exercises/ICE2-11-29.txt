@@ -1,0 +1,5 @@
+//set variable values var1, var2, and varID here
+let query = 'UPDATE books SET Title="' + var1 + '" Category="' + var2 + '" WHERE ID=' + varID
+connection.query(query,[var1,var2,varID], function(err, result) {
+	if (err) throw err;
+});

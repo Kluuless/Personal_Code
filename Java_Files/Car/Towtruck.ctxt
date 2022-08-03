@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Towtruck
+comment0.text=\r\n\ Adds\ a\ car\ that\ can\ be\ towing\ another\ car.\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=myEfficiency
+comment1.target=Towtruck(double)
+comment2.params=car
+comment2.target=boolean\ tow(Car)
+comment2.text=\r\n\ @return\ \ true\ if\ car\ can\ be\ towed,\ false\ if\ towtruck\ is\ already\ occupied\r\n
+comment3.params=
+comment3.target=Car\ release()
+comment3.text=\r\n\ @return\ \ the\ released\ car,\ or\ null\ if\ towtruck\ was\ empty\r\n
+comment4.params=
+comment4.target=boolean\ isTowing()
+comment5.params=
+comment5.target=Car\ getVehicle()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

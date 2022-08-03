@@ -1,0 +1,47 @@
+<!DOCTYPE=html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <title>My Notes</title>
+    <style>
+		#summary {
+			font-weight: normal;
+			font-size: 16px;
+		}
+	</style>
+  </head>
+  <body>
+    <h1>My Notes</h1>
+    <h2> Summary of "to-do" items: <h2>
+    <div id="summary">
+    </div>
+    <h3> Specific Items to do: </h3>
+    <ol>
+      <li class="chore">Make dinner</li>
+      <li class="chore">Clean room</li>
+      <li class="school">Study for 4131 exam</li>
+    </ol>
+	<script>
+      let schoolNotes = ["Study"];
+      let choreNotes = ["Clean room"];
+      collectNotesInfo();
+      
+      function collectNotesInfo() {
+        let summary = '';
+        if (schoolNotes.length > 0) {
+          summary += `school things to do: ${schoolNotes.length}`;
+        } else {
+          summary += `No school things to do`;
+        }
+        summary += '<br/>';
+        if (choreNotes.length > 0) {
+          summary += `chores to do: ${choreNotes.length}`;
+        } else {
+          summary += `No chores to do`;
+        }
+
+        document.getElementById('summary').innerHTML = summary;
+      }
+    </script>
+  </body>
+</html>

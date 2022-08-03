@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Crate()
+comment1.params=fruit
+comment1.target=void\ putInCrate(Fruit)
+comment2.params=
+comment2.target=void\ printContents()
+comment3.params=
+comment3.target=java.util.ArrayList\ toArrayList()
+comment4.params=other
+comment4.target=int\ compareTo(Crate)
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+numComments=6

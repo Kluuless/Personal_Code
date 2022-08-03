@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CaesarShift
+comment0.text=\r\n\ Uses\ a\ Caesar\ shift\ to\ encrypt\ the\ text\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=myText
+comment1.target=CaesarShift(java.lang.String)
+comment1.text=\r\n\ Constructors\ for\ class\ CaesarShift\r\n\ \r\n\ Default\ shift\ value\ is\ 3\ places\r\n\ \r\n\ @param\ \ \ The\ text\ in\ the\ message\r\n
+comment2.params=myText\ shiftAmount
+comment2.target=CaesarShift(java.lang.String,\ int)
+comment2.text=\r\n\ Constructor\ that\ allows\ for\ custom\ shifting\ amounts\r\n\ \r\n\ @param\ \ \ The\ text\ in\ the\ message\r\n\ @param\ \ \ The\ amount\ to\ shift\ the\ text\ by\r\n
+comment3.params=
+comment3.target=void\ encrypt()
+comment3.text=\r\n\ Mutator\ methods\ for\ class\ CaesarShift\r\n\ \r\n\ Shifts\ the\ characters\ ahead\ by\ n\ amounts\r\n
+comment4.params=
+comment4.target=void\ decrypt()
+comment4.text=\r\n\ Shifts\ the\ characters\ back\ to\ original\r\n
+numComments=5

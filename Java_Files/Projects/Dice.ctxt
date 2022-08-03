@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\r\n\ Simulates\ a\ dice\ roll\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ d4()
+comment2.params=
+comment2.target=void\ d6()
+comment3.params=
+comment3.target=void\ d8()
+comment4.params=
+comment4.target=void\ d12()
+comment5.params=
+comment5.target=void\ d20()
+comment6.params=
+comment6.target=void\ percentage()
+comment7.params=numOfFaces
+comment7.target=int\ dInt(int)
+comment8.params=diceType\ amount
+comment8.target=void\ multipleDice(int,\ int)
+numComments=9

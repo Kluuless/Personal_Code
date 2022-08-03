@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Primes
+comment0.text=\r\n\ Prints\ and\ counts\ prime\ numbers.\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=p
+comment1.target=boolean\ isPrime(int)
+comment2.params=
+comment2.target=void\ printPrimes()
+comment3.params=n
+comment3.target=void\ printPrimes(int)
+comment4.params=n
+comment4.target=int\ countPrime(int)
+comment5.params=n
+comment5.target=int\ sumPrime(int)
+comment6.params=n
+comment6.target=double\ avePrime(int)
+comment7.params=n
+comment7.target=int\ primeSpace(int)
+comment8.params=n
+comment8.target=java.lang.String\ factor(int)
+comment9.params=max
+comment9.target=int\ countTwinPrimes(int)
+numComments=10

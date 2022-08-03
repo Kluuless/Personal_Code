@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DnDWeapon
+comment0.text=\r\n\ Represents\ a\ weapon\ from\ Dungeons\ and\ Dragons\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=weaponName\ damage\ isEnchanted
+comment1.target=DnDWeapon(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=DnDWeapon()
+comment3.params=
+comment3.target=java.lang.String\ getWeaponName()
+comment4.params=
+comment4.target=java.lang.String\ getDamage()
+comment5.params=
+comment5.target=boolean\ isEnchanted()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

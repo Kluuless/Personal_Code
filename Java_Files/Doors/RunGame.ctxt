@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RunGame
+comment0.text=\r\n\ Simulates\ the\ Monty\ Hall\ Problem\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ Xmas\ 2017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

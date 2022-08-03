@@ -1,0 +1,4 @@
+var BookID = 1;
+connection.query('DELETE FROM books WHERE ID=?',[BookID], function(err, result) {
+	if (err) throw err;
+});

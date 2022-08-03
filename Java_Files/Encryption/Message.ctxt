@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Message
+comment0.text=\r\n\ Creates\ a\ base\ for\ subclasses,\ each\ will\ have\ its\ own\ encryption\ code\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=myText
+comment1.target=Message(java.lang.String)
+comment1.text=\r\n\ \ Constructor\ for\ abstract\ class\ Message\r\n\ \ \r\n\ \ @param\ \ The\ text\ inside\ the\ message\r\n
+comment2.params=
+comment2.target=java.lang.String\ getText()
+comment2.text=\r\n\ Accessor\ Methods\ ofr\ class\ Message\r\n\ \r\n\ @return\ \ The\ text\ of\ the\ method,\ regardless\ of\ encryption\r\n
+comment3.params=
+comment3.target=boolean\ isEncrypted()
+comment3.text=\r\n\ @return\ \ True\ if\ text\ is\ encrypted,\ false\ if\ not\r\n
+comment4.params=
+comment4.target=void\ encrypt()
+comment4.text=\r\n\ Mutator\ methods\ for\ class\ Message\r\n\ \r\n\ Encrypts\ the\ message\ and\ sets\ isEncrypted\ to\ true\r\n\ Only\ works\ if\ text\ isn't\ already\ encrypted\r\n
+comment5.params=
+comment5.target=void\ decrypt()
+comment5.text=\r\n\ Unencrypts\ the\ message\ and\ sets\ isEncrypted\ to\ false\r\n\ Only\ works\ if\ text\ is\ already\ encrypted\r\n
+numComments=6

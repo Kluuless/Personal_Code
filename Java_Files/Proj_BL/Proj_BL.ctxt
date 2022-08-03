@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Proj_BL
+comment0.text=\r\n\ Calculates\ info\ about\ digits\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=x
+comment1.target=int\ sumDigits(int)
+comment2.params=num\ target
+comment2.target=int\ countDigitsHelper(int,\ int)
+comment3.params=data
+comment3.target=int[]\ countDigits(int[])
+comment4.params=nums
+comment4.target=int[]\ reduce(int[])
+comment5.params=data
+comment5.target=void\ showCountDigitsResults(int[])
+comment6.params=filename
+comment6.target=void\ showCountDigitResults(java.lang.String)
+comment6.text=\r\n\ DEFAULT\:\ population.txt\r\n\ \r\n\ Other\ options\:\r\n\ \ \ \ \ \ \ \ \ \ -\ stars.txt\r\n\ \ \ \ \ \ \ \ \ \ -\ words.txt\r\n
+comment7.params=n
+comment7.target=int[]\ getData(int)
+numComments=8

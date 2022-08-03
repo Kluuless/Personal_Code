@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Utilities
+comment0.text=\r\n\ A\ bunch\ of\ utility\ static\ methods\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=max
+comment1.target=void\ randomNumber(int)
+comment2.params=num\ list
+comment2.target=boolean\ intListContains(int,\ java.util.ArrayList)
+comment3.params=letters
+comment3.target=java.lang.String\ listToString(java.util.ArrayList)
+comment4.params=string\ list
+comment4.target=boolean\ stringListContains(java.lang.String,\ java.util.ArrayList)
+numComments=5

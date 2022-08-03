@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Frame
+comment0.text=\r\n\ Represents\ a\ frame\ of\ a\ scorecard\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Frame()
+comment1.text=\r\n\ Default\ Frame\ \=\ not\ tenth\ frame,\ no\ scores\ set\r\n\ \r\n\ Total\ to\ calculated\ with\ method\ calculateTotal()\r\n
+comment2.params=box1\ box2
+comment2.target=Frame(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ For\ non-tenth-frame\ frames\r\n\ \r\n\ Total\ to\ calculated\ with\ method\ calculateTotal()\r\n
+comment3.params=box1\ box2\ box3
+comment3.target=Frame(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ For\ the\ tenth\ frame\r\n\ \r\n\ Total\ to\ calculated\ with\ method\ calculateTotal()\r\n
+numComments=4

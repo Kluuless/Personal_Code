@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(200,225,255);
+	color: rgb(0,50,100);
+}
+table {
+	padding: 0px;
+	margin: 0px;
+}
+th table, th table tr, th table tr th {
+	border: 1px solid rgb(0,50,100);
+	border-collapse: collapse;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-weight: normal;
+}
+img {
+	width:50px;
+}
+.bigImage {
+	width:300px;
+}
+nav a {
+	border: 1px solid rgb(0,50,100);
+	width: auto;
+	padding: 2px 10px 2px 10px;
+	font-weight: bold;
+	background-color: rgb(100,175,125);
+}
+/* colors for use in table-background color-coding */
+.gray {background: lightgray; font-weight: bold;} /* Header column/row */
+.yellow {background: rgb(255,255,220);} /* CSCI4131 */
+.blue {background: rgb(220,240,255);} /* CSCI3003 */
+.green {background: rgb(220,255,220);} /* CSCI5801 */
+.red {background: rgb(255,220,220);} /* CSCI4271W */
+.purple {background: rgb(255,220,255);} /* Extracurriculars */
+.lightgray {background: rgb(230,230,230);} /* Personal Time */
+
+
+p {
+	font-size: 24pt;
+	font-weight: bold;
+}
+.pwOuter {
+	border: 3px dotted rgb(200,150,200);
+	background-color: rgb(225,200,255);
+	font-weight: normal;
+}
+.PWChecker {
+	border: 1px solid rgb(0,50,100);
+	border-collapse: collapse;
+	color: rgb(200,225,255);
+	width: 60%;
+	height: 20px;
+	margin-left: 20%;
+}
+#PWStrength, caption {
+	font-size: 12pt;
+	font-weight: normal;
+	color: rgb(0,50,100);
+}
+
+
+.formTable {
+	text-align: right;
+}
+
+input {
+	width: 96%
+}
+
+#submit, #Clear {
+	text-align: center;
+	width: 100%
+}
+
+#day {
+	width: 100%;
+}
+
+#start, #end {
+	width: 97%;
+}
+
+#info {
+	width: 200px;
+	height: 100px;
+}

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Hangman
+comment0.text=\r\n\ Hangman\ Game\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Hangman()
+comment2.params=theWord
+comment2.target=Hangman(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getWord()
+comment4.params=revealed
+comment4.target=void\ display(java.util.ArrayList)
+comment5.params=letter
+comment5.target=java.util.ArrayList\ contains(java.lang.String)
+comment6.params=
+comment6.target=void\ game()
+comment7.params=guesses
+comment7.target=void\ game(int)
+numComments=8

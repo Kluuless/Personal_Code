@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Film
+comment0.text=\r\n\ Represents\ a\ film\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=year\ title
+comment1.target=Film(int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getYear()
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=void\ compareByYear()
+comment6.params=
+comment6.target=void\ compareByTitle()
+comment7.params=other
+comment7.target=int\ compareTo(Film)
+comment8.params=word
+comment8.target=boolean\ titleContainsTheWord(java.lang.String)
+numComments=9

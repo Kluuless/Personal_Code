@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="locations"></div>
+		<script>
+			var text = '{"lat1":"44.95045","lon1":"-93.345002","lat2":"44.95045","lon2":"-93.345002"}';
+			var coords = JSON.parse(text);
+			document.getElementById("locations").innerHTML =
+				coords.lat1 + "<br>" +
+				coords.lon1 + "<br>" +
+				coords.lat2 + "<br>" +
+				coords.lon2
+			
+			alert(JSON.stringify(coords));
+		</script>
+	</body>
+</html>

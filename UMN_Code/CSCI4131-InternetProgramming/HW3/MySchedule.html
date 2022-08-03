@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Weekly Schedule</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<script src="ScheduleScript.js" defer></script>
+		<script defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoqNxtO1ERzFfzuVLFWilsMr44zew_zJ0&libraries=places&callback=initMap">
+		</script>
+		
+		<nav>
+			<a href="MySchedule.html">Weekly Schedule</a>
+			<a href="MyWidgets.html">My Widgets</a>
+			<a href="MyForm.html">My Form</a>
+		</nav>
+		
+		<br><div id="time">Current Time:</div>
+		
+		<h1> My Weekly Schedule </h1>
+		
+		<table>
+			<tr>
+				<th colspan="2">
+					<table> <!-- '‑' is a non-breaking hyphen (the word won't be split into two if it reaches end of the line) -->
+						<tr class="gray"> <!-- Header -->
+							<th><strong>Day</strong></th>
+							<th><strong>Event</strong></th>
+							<th><strong>Time</strong></th>
+							<th><strong>Event Location</strong></th>
+							<th><strong>Phone Number</strong></th>
+							<th><strong>URL</strong></th>
+						</tr>
+						<tr class="lightgray"> <!-- Sunday -->
+							<th class="gray">Sunday</th>
+							<th>Study Time</th>
+							<th>1pm - 6pm</th>
+							<th>Wherever</th>
+							<th>None</th>
+							<th><a href="https://www.youtube.com/watch?v=3jWRrafhO7M" target="_blank">My Go-To Study Music</a></th>
+						</tr>
+						<tr class="yellow"> <!-- Monday -->
+							<th class="gray">Monday</th>
+							<th>CSCI4131 Lecture</th>
+							<th>9:45am - 11:00am</th>
+							<th>5 Blegen Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268388" target="_blank">CSCI4131 Info</a></th>
+						</tr>
+						<tr class="green"> <!-- Tuesday -->
+							<th rowspan="3" class="gray">Tuesday</th>
+							<th>CSCI5801 Lecture</th>
+							<th>9:45am - 11:00am</th>
+							<th>3-210 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268021" target="_blank">CSCI5801 Info</a></th>
+						</tr>
+						<tr class="blue">
+							<th>CSCI3003 Lecture</th>
+							<th>2:30pm - 3:45pm</th>
+							<th>3-230 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+						</tr>
+						<tr class="red">
+							<th>CSCI4271W Lecture</th>
+							<th>4:00pm - 5:15pm</th>
+							<th>3-125 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+						</tr>
+						<tr class="yellow"> <!-- Wednesday -->
+							<th rowspan="2" class="gray">Wednesday</th>
+							<th>CSCI4131 Lecture</th>
+							<th>9:45am - 11:00am</th>
+							<th>5 Blegen Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268388" target="_blank">CSCI4131 Info</a></th>
+						</tr>
+						<tr class="red">
+							<th>CSCI4271W Lab</th>
+							<th>4:40pm - 5:30pm</th>
+							<th>1-250 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+						</tr>
+						<tr class="green"> <!-- Thursday -->
+							<th rowspan="3" class="gray">Thursday</th>
+							<th>CSCI5801 Lecture</th>
+							<th>8:45am - 11:00am</th>
+							<th>3-210 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268021" target="_blank">CSCI5801 Info</a></th>
+						</tr>
+						<tr class="blue">
+							<th>CSCI3003 Lecture</th>
+							<th>2:30pm - 3:45pm</th>
+							<th>3-230 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+						</tr>
+						<tr class="red">
+							<th>CSCI4271W Lecture</th>
+							<th>4:00pm - 5:15pm</th>
+							<th>3-125 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+						</tr>
+						<tr class="blue"> <!-- Friday -->
+							<th rowspan="3" class="gray">Friday</th>
+							<th>CSCI3003 Lab</th>
+							<th>12:20pm - 2:15pm</th>
+							<th>1-260 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+						</tr>
+						<tr class="purple">
+							<th>Tesla Works Club</th>
+							<th>4:30pm-6:30pm</th>
+							<th>2-160 Keller Hall</th>
+							<th>None</th>
+							<th><a href="https://teslaworks.net/" target="_blank">Tesla Works Website</a></th>
+						</tr>
+						<tr class="purple">
+							<th>Dungeons and Dragons Club</th>
+							<th>6:30pm</th>
+							<th>114 Bruininks Hall</th>
+							<th>None</th>
+							<th><a href="https://twin-cities-umn.presence.io/organization/dungeons-and-dragons-club-3353" target="_blank">D&D Club Website</a></th>
+						</tr>
+						<tr class="lightgray"> <!-- Saturday -->
+							<th class="gray">Saturday</th>
+							<th>Weekend Chores</th>
+							<th>1pm - 3pm</th>
+							<th>220 Delaware St SE, Minneapolis, MN 55455</th>
+							<th>None</th>
+							<th>None</th>
+						</tr>
+					</table>
+				</th>
+				<th colspan="1">
+					<button type="button" id="fadeToggle" name="fadeToggle">Go Away!</button><br>
+					<img src="img/gophers-mascot.png" alt="Gopher Mascot Image" class="bigImage">
+				</th>
+			</tr>
+			<tr>
+				<th id="directions" colspan="1">
+					<p>Directions:</p><br>
+					Directions will show up here!
+				</th>
+				<th colspan="1">
+					<div id="map"></div>
+				</th>
+				<th id="mapInput" colspan="1">
+					<p>Search for a Place</p>
+					<label for="placeCategory">Type of Place:</label>
+					<select id="placeCategory" name="placeCategory">
+						<option value="" disabled selected>Type of Place</option>
+						<option value="Restaurant">Restaurant</option>
+						<option value="Hospital">Hospital</option>
+						<option value="Parking">Parking</option>
+						<option value="Supermarket">Supermarket</option>
+						<option value="Other">Other</option>
+					</select><br>
+					<label for="placeOther">Other:</label>
+					<input id="placeOther" name="placeOther" type="text" disabled><br>
+					<label for="placeRadius">Radius (in miles):</label>
+					<input id="placeRadius" name="placeRadius" type="number" value="5" min="0" max="31">
+					<p><button type="button" id="placeSearch" name="placeSearch">Search</button></p><br><br>
+					<p>Get Directions</p>
+					<label for="destination">Destination:</label>
+					<input id="destination" name="destination" type="text">
+					<br>Method of Transportation:<br>
+					<div id="radios">
+						<input type="radio" name="trMethod" id="Driving" value="Driving" checked>
+						<label for="Driving">Driving</label><br>
+						<input type="radio" name="trMethod" id="Walking" value="Walking">
+						<label for="Walking">Walking</label><br>
+						<input type="radio" name="trMethod" id="Transit" value="Transit">
+						<label for="Transit">Transit</label><br>
+					</div>
+					<p><button type="button" id="getDirections" name="getDirections">Go!</button></p>
+				</th>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MyCrazyCipher
+comment0.text=\r\n\ Exchanges\ each\ letter\ with\ letter\ on\ the\ opposite\ side\ of\ the\ alphabet\ then\ inserts\r\n\ random\ letters\ in\ between\ each\ character\ in\ the\ string.\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=myText
+comment1.target=MyCrazyCipher(java.lang.String)
+comment1.text=\r\n\ Constructors\ for\ class\ MyCrazyCipher\r\n\ \r\n\ @param\ \ \ the\ text\ of\ the\ message\r\n
+comment2.params=myText\ rate
+comment2.target=MyCrazyCipher(java.lang.String,\ int)
+comment2.text=\r\n\ @param\ \ \ the\ text\ of\ the\ message\r\n\ @param\ \ \ the\ rate\ to\ which\ letters\ are\ added/removed\r\n
+comment3.params=
+comment3.target=void\ letterSwap()
+comment4.params=n
+comment4.target=void\ insertRandomLetters(int)
+comment5.params=n
+comment5.target=void\ removeLetters(int)
+comment6.params=
+comment6.target=void\ encrypt()
+comment7.params=
+comment7.target=void\ decrypt()
+numComments=8

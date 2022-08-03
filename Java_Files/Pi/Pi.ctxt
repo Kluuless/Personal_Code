@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Pi
+comment0.text=\r\n\ Uses\ random\ numbers\ to\ try\ to\ calculate\ pi\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=double\ iteration()
+comment2.params=
+comment2.target=void\ count()
+comment3.params=
+comment3.target=double\ calculate()
+comment4.params=calculations
+comment4.target=double\ run(int)
+comment5.params=
+comment5.target=boolean\ clearCounts()
+numComments=6

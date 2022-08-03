@@ -1,0 +1,9 @@
+link: http://www.csci4131.edu/test
+server: www.csci4131.edu
+response: <html><body><p>Hello World</p></body></html>
+
+a) Http request message request line: GET /test.html HTTP/1.1
+
+b) Http response message status line: HTTP/1.1 200 OK
+
+c) Content-type of response message body: html file (text)

@@ -1,0 +1,25 @@
+Host computer: csel-kh1262-11.cselabs.umn.edu
+Directory: /webserver
+Directory Contents:
+	-rw-------1 x500user CSEL-student 3275 Oct 3 07:25 server.py
+	-rw-r--r--1 x500user CSEL-student 1261 Oct 4 17:42 schedule.html
+	-rw-r--r--1 x500user CSEL-student  368 Oct 4 21:40 main.js
+	-rw-r--r--1 x500user CSEL-student 2561 Oct 4 17:42 my schedule.html
+
+HTTP requests:
+1) GET /webserver/schedule.html HTTP/1.1
+Host: csel-kh1262-11.cselabs.umn.edu
+Accept: */*
+
+2) DELETE /webserver/main.js HTTP/1.1
+Host: csel-kh1262-11.cselabs.umn.edu
+Accept: */*
+
+3) HEAD /webserver/my schedule.html HTTP/1.1
+Host: csel-kh1262-11.cselabs.umn.edu
+Accept: */*
+
+HTTP nessage response codes:
+1) 200
+2) 401
+3) 400

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=ArtDemo(java.lang.String)
+comment0.text=\r\n\ \ Create\ an\ Art\ object\ using\ the\ jpg\ or\ bmp\ at\ the\ location\ "filename"\r\n
+comment1.params=
+comment1.target=void\ show()
+comment1.text=\r\n\ Show\ the\ Art\ object\r\n
+comment2.params=
+comment2.target=ArtDemo()
+comment2.text=\r\n\ Create\ a\ rectangular\ Art\ object\ with\ random\ color\ values\r\n
+numComments=3

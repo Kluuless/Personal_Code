@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CharacterSimple
+comment0.text=\r\n\ A\ simpler\ version\ of\ characters\ (just\ name\ and\ health)\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=name\ maxHealth\ health\ isEnemy
+comment1.target=CharacterSimple(java.lang.String,\ int,\ int,\ boolean)
+comment10.params=initiative
+comment10.target=void\ setInitiative(int)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getHealth()
+comment4.params=
+comment4.target=int\ getInitiative()
+comment5.params=
+comment5.target=boolean\ isEnemy()
+comment6.params=
+comment6.target=boolean\ isDead()
+comment7.params=
+comment7.target=boolean\ isUnconscious()
+comment8.params=amount
+comment8.target=void\ heal(int)
+comment9.params=amount
+comment9.target=int\ damage(int)
+comment9.text=\r\n\ Returns\:\r\n\ 0\ -\ character\ is\ alive\r\n\ 1\ -\ character\ is\ unconscious\r\n\ 2\ -\ character\ is\ dead\r\n
+numComments=12

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Weekly Schedule</title>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+				padding-left: 4px;
+				padding-right: 4px;
+				font-weight: normal;
+			}
+			.navBorder { /* For the nav elements */
+				border: 1px outset black;
+				width: 116px;
+				padding: 2px 4px 2px 4px;
+				font-weight: bold;
+			}
+			/* colors for use in table-background color-coding */
+			.gray {background: lightgray;} /* Header column/row */
+			.yellow {background: rgb(255,255,220);} /* CSCI4131 */
+			.blue {background: rgb(220,240,255);} /* CSCI3003 */
+			.green {background: rgb(220,255,220);} /* CSCI5801 */
+			.red {background: rgb(255,220,220);} /* CSCI4271W */
+			.purple {background: rgb(255,220,255);} /* Extracurriculars */
+			.lightgray {background: rgb(230,230,230);} /* Personal Time */
+		</style>
+	</head>
+	
+	<body>
+		<nav class="navBorder">
+			<a href="mySchedule.html">Weekly Schedule</a>
+		</nav>
+		<nav class="navBorder">
+			<a href="myWidgets.html">My Widgets</a>
+		</nav>
+		
+		<h1> My Weekly Schedule </h1>
+		<table>
+			<tr class="gray"> <!-- Header -->
+				<th><strong>Day</strong></th>
+				<th><strong>Event</strong></th>
+				<th><strong>Time</strong></th>
+				<th><strong>Event Location (Virtual or Physical)</strong></th>
+				<th><strong>Phone Number</strong></th>
+				<th><strong>URL</strong></th>
+			</tr>
+			<tr class="lightgray"> <!-- Sunday -->
+				<th class="gray">Sunday</th>
+				<th>Study</th>
+				<th>1pm - 6pm</th>
+				<th>Wherever</th>
+				<th>None</th>
+				<th><a href="https://www.youtube.com/watch?v=3jWRrafhO7M" target="_blank">My Go-To Study Music</a></th>
+			</tr>
+			<tr class="yellow"> <!-- Monday -->
+				<th class="gray">Monday</th>
+				<th>CSCI4131 Lecture</th>
+				<th>9:45am - 11:00am</th>
+				<th>Blegen 5</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268388" target="_blank">CSCI4131 Info</a></th>
+			</tr>
+			<tr class="green"> <!-- Tuesday -->
+				<th rowspan="3" class="gray">Tuesday</th>
+				<th>CSCI5801 Lecture</th>
+				<th>9:45am - 11:00am</th>
+				<th>Keller 3-210</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268021" target="_blank">CSCI5801 Info</a></th>
+			</tr>
+			<tr class="blue">
+				<th>CSCI3003 Lecture</th>
+				<th>2:30pm - 3:45pm</th>
+				<th>Keller 3-230</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+			</tr>
+			<tr class="red">
+				<th>CSCI4271W Lecture</th>
+				<th>4:00pm - 5:15pm</th>
+				<th>Keller 3-125</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+			</tr>
+			<tr class="yellow"> <!-- Wednesday -->
+				<th rowspan="2" class="gray">Wednesday</th>
+				<th>CSCI4131 Lecture</th>
+				<th>9:45am - 11:00am</th>
+				<th>Blegen 5</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268388" target="_blank">CSCI4131 Info</a></th>
+			</tr>
+			<tr class="red">
+				<th>CSCI4271W Lab</th>
+				<th>4:40pm - 5:30pm</th>
+				<th>Keller 1-250</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+			</tr>
+			<tr class="green"> <!-- Thursday -->
+				<th rowspan="3" class="gray">Thursday</th>
+				<th>CSCI5801 Lecture</th>
+				<th>8:45am - 11:00am</th>
+				<th>Keller 3-210</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268021" target="_blank">CSCI5801 Info</a></th>
+			</tr>
+			<tr class="blue">
+				<th>CSCI3003 Lecture</th>
+				<th>2:30pm - 3:45pm</th>
+				<th>Keller 3-230</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+			</tr>
+			<tr class="red">
+				<th>CSCI4271W Lecture</th>
+				<th>4:00pm - 5:15pm</th>
+				<th>Keller 3-125</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268725" target="_blank">CSCI4271W Info</a></th>
+			</tr>
+			<tr class="blue"> <!-- Friday -->
+				<th rowspan="3" class="gray">Friday</th>
+				<th>CSCI3003 Lab</th>
+				<th>12:20pm - 2:15pm</th>
+				<th>Keller 1-250</th>
+				<th>None</th>
+				<th><a href="https://umn.instructure.com/courses/268657" target="_blank">CSCI3003 Info</a></th>
+			</tr>
+			<tr class="purple">
+				<th>Tesla Works Club</th>
+				<th>4:30pm-6:30pm</th>
+				<th>Keller 2-160</th>
+				<th>None</th>
+				<th><a href="https://teslaworks.net/" target="_blank">Tesla Works Website</a></th>
+			</tr>
+			<tr class="purple">
+				<th>Dungeons and Dragons Club</th>
+				<th>6:30pm</th>
+				<th>Bruininks 114</th>
+				<th>None</th>
+				<th><a href="https://twin-cities-umn.presence.io/organization/dungeons-and-dragons-club-3353" target="_blank">D&D Club Website</a></th>
+			</tr>
+			<tr class="lightgray"> <!-- Saturday -->
+				<th class="gray">Saturday</th>
+				<th>Weekend Chores</th>
+				<th>1pm - 3pm</th>
+				<th>My Apartment</th>
+				<th>None</th>
+				<th>None</th>
+			</tr>
+		</table>
+	</body>
+</html>

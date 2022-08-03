@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ownable
+comment0.text=\r\n\ Compares\ weights\ and\ hungriness\ of\ all\ ownable\ animals\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Human\ getOwner()
+comment1.text=~~~~~~~~~~\ ACCESSOR\ METHODS\ ~~~~~~~~~~
+comment2.params=
+comment2.target=boolean\ isHungry()
+comment3.params=
+comment3.target=int\ daysSinceFed()
+comment4.params=
+comment4.target=void\ feed()
+comment4.text=~~~~~~~~~~\ MUTATOR\ METHODS\ ~~~~~~~~~~
+comment5.params=theOwner
+comment5.target=void\ setOwner(Human)
+comment6.params=
+comment6.target=void\ nextDay()
+numComments=7

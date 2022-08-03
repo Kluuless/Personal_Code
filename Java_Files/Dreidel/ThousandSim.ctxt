@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ThousandSim
+comment0.text=\r\n\ Simulates\ a\ 10,000\ Dreidel\ games\ to\ see\ if\ the\ first\ person\ has\ a\ slight\ advantage,\r\n\ Each\ method\ has\ a\ different\ starting\ condition\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ startWithTenPieces()
+comment1.text=\r\n\ 3\ players,\ each\ with\ 10\ starting\ pieces\r\n
+comment2.params=
+comment2.target=void\ startWithFifteenPieces()
+comment2.text=\r\n\ 3\ players,\ each\ with\ 15\ pieces\r\n
+comment3.params=
+comment3.target=void\ startWithFivePlayers()
+comment3.text=\r\n\ 5\ players,\ each\ with\ 10\ pieces\r\n
+comment4.params=
+comment4.target=void\ startDifferentAmounts()
+comment4.text=\r\n\ 3\ players,\ the\ first\ with\ 5\ pieces,\ the\ second\ with\ 10,\ and\ the\ third\ with\ 20\r\n
+numComments=5

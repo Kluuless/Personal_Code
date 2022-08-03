@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=RandomNumberList
+comment0.text=\r\n\ RandomNumberArray\ is\ an\ array\ of\ n\ integers\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @author\ Mr.\ Funk\ and\ **YOUR\ NAME\ HERE**\r\n\ @version\ 1.0\r\n
+comment1.params=listSize
+comment1.target=RandomNumberList(int)
+comment1.text=\r\n\ Constructors\ for\ objects\ of\ class\ RandomNumberList\r\n
+comment2.params=list
+comment2.target=RandomNumberList(int[])
+comment3.params=
+comment3.target=RandomNumberList()
+comment4.params=target
+comment4.target=int\ binarySearch(int)
+comment4.text=\r\n\ Sort\ data\ using\ the\ binary\ search\ algorithm\r\n\ @return\:\ the\ index\ of\ the\ target,\ -1\ if\ target\ not\ found\r\n
+comment5.params=target\ reduced
+comment5.target=int\ binarySearch(int,\ int[])
+comment6.params=
+comment6.target=void\ mergeSort()
+comment6.text=\r\n\ Sort\ data\ using\ the\ merge\ sort\ algorithm\r\n\ @postcondition\:\ data\ is\ sorted\r\n
+comment7.params=a
+comment7.target=int[]\ mergeSort(int[])
+comment8.params=a\ b
+comment8.target=int[]\ merge(int[],\ int[])
+comment8.text=\r\n\ Helper\ method\:\ \ Merge\ two\ sorted\ arrays\ into\ a\ new\ sorted\ array\r\n\ \r\n\ @precondition\:\ int[]\ a\ and\ int[]\ b\ are\ both\ sorted\r\n\ @return\:\ \ a\ sorted\ array\ consisting\ of\ the\ data\ from\ a\ and\ b\r\n
+numComments=9

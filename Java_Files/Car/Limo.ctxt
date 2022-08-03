@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Limo
+comment0.text=\r\n\ Subclass\ of\ Car\:\ simulates\ a\ Limo\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=theDriver\ theEfficiency
+comment1.target=Limo(java.lang.String,\ double)
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

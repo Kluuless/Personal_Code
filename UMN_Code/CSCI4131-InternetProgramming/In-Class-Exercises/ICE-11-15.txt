@@ -1,0 +1,15 @@
+connection.query('SELECT * FROM tbl_events', function(err,rows,fields) {
+	if (err) {
+		throw err;
+	}
+	if (rows.length == 0) {
+		console.log("No entries found");
+	} else {
+		for (var i = 0 ; i < rows.length; i++) {
+			console.log(rows[i].event_day + " " + rows[i].event_event
+			+ ": " +  rows[i].event_start + " | " + rows[i].event_end
+			+ " | "  + rows[i].event_location + " | "  + rows[i]. event_phone
+			+ " | "  + rows[i].event_info + " | " + rows[i].event_url );
+		}
+	}
+});

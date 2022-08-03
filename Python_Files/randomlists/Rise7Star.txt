@@ -1,0 +1,80 @@
+[Village] Advanced: The Veterans' Gala
+[Hub] It's Gonna Get You!
+[Hub] Clad in Hellfire
+[Hub] A Muddy Invitation
+[Hub] Subterranean Disturbances
+[Hub] A Resounding Roar
+[Hub] Evil Afoot
+[Hub] Can't Kill It with Fire
+[Hub] Serpent Goddess of Thunder
+[Hub] Seared Situation
+[Hub] A Quartet of Horns
+[Hub] Ruckus in the Ruins
+[Hub] A Frosty Stalemate
+[Hub] Fought, Failed, Fired Up
+[Hub] Occupational Hazards
+[Hub] Omnidirectional Threats
+[Hub] A Whirlwind of a Stage
+[Hub] Ancient Illusion
+[Hub] The Steely Storm
+[Hub] The Emperor of Flame
+[Hub] A Blaze Among Beasts
+[Hub] May Fire Quell Fury
+[Hub] Death From Above/Return of the Bazelgeuse
+[Hub] The Avaricious Apex Arzuros
+[Hub] The Graceful Apex Rathian
+[Hub] The Harlequin Apex Mizutsune
+[Hub] Master Utsushi's Challenge Part 1
+[Hub] Master Utsushi's Challenge Part 2
+[Hub] Master Utsushi's Challenge Part 3
+[Hub] Master Utsushi's Challenge Part 4
+[Hub] Master Utsushi's Challenge Part 5
+[Hub] The Allmother
+[Hub] The Crimson Glow
+[Hub] The Fearsome Apex Rathalos
+[Hub] The Devastating Apex Diablos
+[Hub] The Voltaic Apex Zinogre
+[Hub] Advanced: Dual Calamities
+[Hub] Advanced: Of Storm and Fire
+[Hub] Advanced: Scaredy-Cat
+[Hub] Advanced: The Fallen Comet
+[Hub] Advanced: Proof of Power
+[Hub] Advanced: Those Crowned Apex
+[Event] Beast of the Shadows
+[Event] Haste Makes Waste
+[Event] I Can't Do What Somnacan
+[Event] Heart of a Ninja
+[Event] Almudron: Fashion Victim
+[Event] Fooled in the Flooded Forest
+[Event] Heart of a Hero
+[Event] An Icy Blade So Bright
+[Event] Heart of Rivalry
+[Event] Tempest in the Desert
+[Event] SF: Ultimate Promotion Exam
+[Event] White Desert Blossom
+[Event] Scorching Showdown
+[Event] Boomy Dango
+[Event] Trouble in Paradise
+[Event] Diablos Deception
+[Event] Gales of Ibushi Blow Again
+[Event] Clouds of Narwa Rumble Again
+[Event] Apex Arzuros Emergency
+[Event] Kunai Ask You a Favor?
+[Event] Super Shady Look-alike
+[Event] Apex Rathian Emergency
+[Event] Rajang's Holiday Special
+[Event] Heart of an Apex
+[Event] Apex Mizutsune Emergency
+[Event] Blazin' Soul of a Warrior
+[Event] Apex Rathalos Emergency
+[Event] Frost Bites
+[Event] Advanced: Born of Paradise
+[Event] Apex Diablos Emergency
+[Event] USJ - Shrine Showdown!
+[Event] Advanced: Crimson Calamity
+[Event] Princesses' Banquet
+[Event] Apex Zinogre Emergency
+[Event] Monster Maniacs
+[Event] Zin and Yang
+[Event] Heart of Might
+[Event] Memories of That Day

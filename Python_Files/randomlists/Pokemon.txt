@@ -1,0 +1,199 @@
+Bulbasaur
+Ivysaur
+Venusaur
+Mega Venusaur
+Gigantamax Venusaur
+Charmander
+Charmeleon
+Charizard
+Mega Charizard X
+Mega Charizard Y
+Gigantamax Charizard
+Squirtle
+Wartortle
+Blastoise
+Mega Blastoise
+Gigantamax Blastoise
+Caterpie
+Metapod
+Butterfree
+Gigantamax Butterfree
+Weedle
+Kakuna
+Beedrill
+Mega Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Mega Pidgeot
+Rattata
+Alolan Rattata
+Raticate
+Alolan Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Alolan Raichu
+Sandshrew
+Alolan Sandshrew
+Sandslash
+Alolan Sandslash
+Nidoran F
+Nidorina
+Nidoqueen
+Nidoran M
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Ninetales
+Jigglypuff
+Wigglytuff
+Zubat
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Alolan Diglett
+Dugtrio
+Alolan Dugtrio
+Meowth
+Alolan Meowth
+Gigantamax Meowth
+Persian
+Alolan Persian
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Arcanine
+Poliwag
+Poliwirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Mega Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Alolan Geodude
+Graveler
+Alolan Graveler
+Golem
+Alolan Golem
+Ponyta
+Galarian Ponyta
+Rapidash
+Galarian Rapidash
+Slowpoke
+Galarian Slowpoke
+Slowbro
+Galarian Slowbro
+Magnemite
+Magneton
+Farfetch'd
+Galarian Farfetch'd
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Alolan Grimer
+Muk
+Alolan Muk
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+Mega Gengar
+Gigantamax Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Electrode
+Exeggcute
+Exeggutor
+Alolan Exeggutor
+Cubone
+Marowak
+Alolan Marowak
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Galarian Weezing
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+Mega Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Galarian Mr. Mime
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+Mega Pinsir
+Tauros
+Magikarp
+Gyarados
+Mega Gyarados
+Lapras
+Gigantamax Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+Meag Aerodactyl
+Snorlax
+Gigantamax Snorlax
+Articuno
+Gigantamax Articuno
+Zapdos
+Gigantamax Zapdos
+Moltres
+Gigantamax Moltres
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+Mega Mewtwo X
+Mega Mewtwo Y
+Mew

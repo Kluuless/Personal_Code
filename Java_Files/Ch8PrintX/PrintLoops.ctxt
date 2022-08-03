@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=PrintLoops
+comment0.text=\r\n\ Prints\ a\ pattern\ of\ x's\ with\ n\ rows\ and\ n\ columns\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=n
+comment1.target=void\ printBlock(int)
+comment2.params=n
+comment2.target=void\ printDiagonal(int)
+comment3.params=n
+comment3.target=void\ printBox(int)
+comment4.params=n
+comment4.target=void\ printX(int)
+comment5.params=n
+comment5.target=void\ printDiamond(int)
+comment6.params=n
+comment6.target=void\ drawReverseTriangle(int)
+comment7.params=height
+comment7.target=void\ drawTriangle(int)
+comment8.params=amount
+comment8.target=void\ fibbonacci(int)
+numComments=9

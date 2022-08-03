@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Calculate
+comment0.text=\r\n\ \ A\ program\ that\ gets\ a\ set\ of\ numbers\ as\ an\ input\ and\ outputs\ the\ certain\ information.\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

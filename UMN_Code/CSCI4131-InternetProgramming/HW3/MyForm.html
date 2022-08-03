@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Widgets</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<script>
+			var map = null;
+			function initMap() {
+				map = new google.maps.Map(document.getElementById("formMap"),
+					{
+						zoom: 14,
+						center: { lat: 44.9727, lng: -93.23540000000003 },
+						mapId: "b045800e9be6e168"
+					}
+				);
+			}
+		</script>
+		<script defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoqNxtO1ERzFfzuVLFWilsMr44zew_zJ0&libraries=places&callback=initMap">
+		</script>
+		<!-- Nav links -->
+		<nav>
+			<a href="MySchedule.html">Weekly Schedule</a>
+			<a href="MyWidgets.html">My Widgets</a>
+			<a href="MyForm.html">My Form</a>
+		</nav>
+		
+		<h1>My Form</h1>
+		<form  action="https://www-users.cselabs.umn.edu/~joh13266/echo.php" method="POST">
+			<table class="formTable">
+				<tr>
+					<th><label for="event">Event Name</label></th>
+					<th><input type="text" id="event" name="event" placeholder="Name of Event" pattern="[A-Za-z0-9\s].{0,}" required><br></th>
+					<th rowspan="10"><div id="formMap" class="formMap"></div></th>
+				</tr>
+				<tr>
+					<th><label for="day">Day of the Week</label></th>
+					<th>
+						<select id="day" name="day" required>
+							<option value="" disabled selected>Day of the Week</option>
+							<option value="Sunday">Sunday</option>
+							<option value="Monday">Monday</option>
+							<option value="Tuesday">Tuesday</option>
+							<option value="Wednesday">Wednesday</option>
+							<option value="Thursday">Thursday</option>
+							<option value="Friday">Friday</option>
+							<option value="Saturday">Saturday</option>
+						</select><br>
+					</th>
+				</tr>
+				<tr>
+					<th><label for="start">Start Time</label></th>
+					<th><input type="time" id="start" name="start" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="end">Stop Time</label></th>
+					<th><input type="time" id="end" name="end" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="phone">Phone Number</label></th>
+					<th><input type="tel" id="phone" name="phone" placeholder="123-456-7890" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="location">Location</label></th>
+					<th><input type="text" id="location" name="location" placeholder="Building Rm#" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="info">Extra Info</label></th>
+					<th><input type="text" id="info" name="info" placeholder="Comments Here!" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="url">URL</label></th>
+					<th><input type="url" id="url" name="url" placeholder="http://www.placeholder.com" required><br></th>
+				</tr>
+				<tr>
+					<th><label for="submit">Submit</label></th>
+					<th><input type="submit" id="submit" name="submit"></th>
+				</tr>
+				<tr>
+					<th><label for="Clear">Clear</label></th>
+					<th><input type="reset" id="Clear" name="Clear"></th>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

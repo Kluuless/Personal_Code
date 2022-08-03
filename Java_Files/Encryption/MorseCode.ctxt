@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MorseCode
+comment0.text=\r\n\ Converts\ the\ text\ to\ Morse\ Code\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=myText
+comment1.target=MorseCode(java.lang.String)
+comment1.text=\r\n\ Default\ constructor\ for\ class\ MorseCode\r\n
+comment2.params=character
+comment2.target=java.lang.String\ key(java.lang.String)
+comment2.text=\r\n\ @return\ \ the\ Morse\ Code\ representation\ of\ the\ character\r\n\ \r\n\ @param\ \ \ the\ letter\ to\ convert\ (as\ a\ String)\r\n\ @return\ \ the\ morse\ code\ representation\ of\ the\ character,\ if\ not\ able\ to\ be\ converted,\ returns\ the\ letter.\r\n
+comment3.params=letter
+comment3.target=java.lang.String\ reverseKey(java.lang.String)
+comment4.params=
+comment4.target=void\ encrypt()
+comment5.params=
+comment5.target=void\ decrypt()
+numComments=6

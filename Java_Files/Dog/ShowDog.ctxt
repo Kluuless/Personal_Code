@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ShowDog
+comment0.text=\r\n\ A\ type\ of\ dog,\ which\ has\ credentials.\r\n\ \r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=name\ age\ credentials
+comment1.target=ShowDog(java.lang.String,\ int,\ java.lang.String[])
+comment2.params=note
+comment2.target=void\ addCredential(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

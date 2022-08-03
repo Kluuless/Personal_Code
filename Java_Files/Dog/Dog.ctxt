@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Dog
+comment0.text=\r\n\ Dog\ -\ represents\ a\ dog\r\n\ \r\n\ @author\ Mr.\ Funk\r\n\ @version\ Aug\ 28,\ 2015\r\n
+comment1.params=
+comment1.target=Dog()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Dog\r\n
+comment2.params=myName\ myAge
+comment2.target=Dog(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Accessors\ for\ objects\ of\ class\ Dog\r\n
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=myName
+comment6.target=void\ setName(java.lang.String)
+comment6.text=\r\n\ Mutators\ for\ objects\ of\ class\ Dog\r\n
+comment7.params=age
+comment7.target=void\ setAge(int)
+comment8.params=
+comment8.target=void\ older()
+numComments=9

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Parallelogram
+comment0.text=\r\n\ Represents\ a\ parallelogram\r\n\ \r\n\ @author\ Kyle\ Luu\ \r\n\ @version\ Kyle\ Luu\r\n
+comment1.params=base\ height\ side
+comment1.target=Parallelogram(double,\ double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Parallelogram\r\n
+comment2.params=
+comment2.target=double\ getArea()
+comment2.text=\r\n\ @return\ The\ area\ of\ the\ parallelogram\r\n
+comment3.params=
+comment3.target=double\ getPerimeter()
+comment3.text=\r\n\ @return\ \ The\ perimeter\ of\ the\ parallelogram\r\n
+comment4.params=other
+comment4.target=int\ compareTo(Shape)
+comment4.text=\r\n\ @param\ \ \ Another\ shape\r\n\ \r\n\ @return\ \ -1\ if\ area\ is\ less\ than\ object's,\ 1\ if\ area\ is\ more,\ or\ 0\ if\ areas\ are\ equal\r\n
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ @param\ \ \ Another\ shape\r\n\ \r\n\ @return\ \ True\ if\ the\ side,\ base,\ and\ height\ are\ the\ same\r\n
+numComments=6

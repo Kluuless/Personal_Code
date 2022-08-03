@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MathPlus
+comment0.text=\r\n\ Extra\ Math\ Functions.\r\n\r\n\ @author\ Kyle\ Luu\r\n\ @version\ 1.0\r\n
+comment1.params=n
+comment1.target=int\ factorial(int)
+comment2.params=num\ iterations
+comment2.target=double\ cos(double,\ int)
+numComments=3

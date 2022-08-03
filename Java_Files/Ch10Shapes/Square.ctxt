@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\r\n\ Very\ easy\ Square\r\n\ \r\n\ @author\ Mr.\ Funk\ and\ Kyle\ Luu\r\n\ @version\ 2.0\r\n
+comment1.params=side
+comment1.target=Square(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Circle\r\n
+comment2.params=
+comment2.target=double\ getArea()
+comment2.text=\r\n\ @return\ \ The\ area\ of\ the\ square\r\n
+comment3.params=
+comment3.target=double\ getDiagonal()
+comment3.text=\r\n\ @return\ \ The\ diagonal\ of\ the\ square\r\n
+comment4.params=
+comment4.target=double\ getPerimeter()
+comment4.text=\r\n\ @return\ \ The\ perimeter\ of\ the\ square\r\n
+comment5.params=other
+comment5.target=int\ compareTo(Shape)
+comment5.text=\r\n\ @param\ \ \ Another\ shape\r\n\ \r\n\ @return\ \ -1\ if\ area\ is\ less\ than\ object's,\ 1\ if\ area\ is\ more,\ or\ 0\ if\ areas\ are\ equal\r\n
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ @param\ \ \ Another\ shape\r\n\ \r\n\ @return\ \ True\ if\ the\ other\ shape\ is\ a\ square\ and\ has\ the\ same\ side\ length\r\n
+numComments=7
