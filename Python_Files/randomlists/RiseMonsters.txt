@@ -1,43 +1,78 @@
-Great Izuchi
-Great Baggi
-Kulu-Ya-Ku
-Great Wroggi
-Arzuros
+Great Izuchi_
+Great Baggi_
+Kulu-Ya-Ku_
+Great Wroggi_
+Arzuros_
 Lagombi
 Volvidon
 Aknosom
 Royal Ludroth
-Barroth
+Barroth_
+Daimyo Hermitaur_
 Khezu
 Tetranodon
 Bishaten
+Blood Orange Bishaten_
 Pukei-Pukei
 Jyuratodus
 Basarios
-Somnacanth
+Somnacanth_
+Aurora Somnacanth
 Rathian
-Barioth
+Gold Rathian
+Barioth_
 Tobi-Kadachi
-Mangamalo
+Mangamalo_
+Scorned Magnamalo_
 Anjanath
-Nargacuga
-Mizutsune
-Goss Harag
-Rathalos
-Almudron
-Zinogre
-Tigrex
-Diablos
-Rakna-Kadaki
+Nargacuga_
+Lucent Nargacuga
+Mizutsune_
+Violet Mizutsune
+Goss Harag_
+Garangolm_
+Shogun Ceanataur_
+Rathalos_
+Silver Rathalos_
+Almudron_
+Magma Almudron
+Zinogre_
+Lunagaron
+Astalos_
+Espinas_
+Flaming Espinas_
+Gore Magala_
+Chaotic Gore Magala_
+Seregios_
+Tigrex_
+Diablos_
+Rakna-Kadaki_
+Pyre Rakna-Kadaki_
 Kushala Daora
+Risen Kushala Daora_
 Chameleos
+Risen Chameleos_
 Teostra
-Rajang
-Bazelgeuse
+Risen Teostra_
+Malzeno
+Primordial Malzeno
+Shagaru Magala
+Risen Shagaru Magala
+Velkhana
+Rajang_
+Furious Rajang_
+Bazelgeuse_
+Seething Bazelgeuse_
 Wind Serpent Ibushi
 Thunder Serpent Narwa
+Narwa the Allmother
+Crimson Glow Valstrax
+Risen Crimson Glow Valstrax
+Gaismagorm
+Amatsu
 Apex Arzuros
 Apex Rathian
 Apex Mizutsune
 Apex Rathalos
 Apex Diablos
+Apex Zinogre

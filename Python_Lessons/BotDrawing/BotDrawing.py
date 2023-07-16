@@ -170,6 +170,99 @@ class Bot():
             self.color = color
         win.after(self.time,tempFunc)
 
+    def makeSquare(bot, color):
+        bot.switch(color)
+        for i in range(4):
+            bot.move()
+            bot.move()
+            bot.move()
+            bot.turnLeft()
+        bot.turnLeft()
+        for i in range(4):
+            bot.move()
+        bot.turnRight()
+
+    def A(bot):
+        bot.move()
+        bot.turnLeft()
+        bot.move()
+        bot.turnRight()
+        for i in range(3):
+            bot.change("Black")
+            bot.turnLeft()
+        bot.move()
+        bot.turnLeft()
+        bot.switch("Black")
+        for i in range(3):
+            bot.move()
+        bot.turnLeft()
+        bot.move()
+        bot.switch("White")
+        bot.move()
+        bot.turnLeft()
+        bot.switch("Black")
+        bot.move()
+        bot.move()
+        bot.turnRight()
+        bot.move()
+        bot.switch("White")
+        bot.move()
+        bot.turnLeft()
+        bot.move()
+        bot.move()
+        bot.turnLeft()
+        bot.turnLeft()
+
+    def B(bot):
+        bot.switch("Black")
+        for i in range(4):
+            bot.move()
+        bot.turnLeft()
+        bot.move()
+        bot.turnLeft()
+        bot.switch("White")
+        for i in range(2):
+            bot.move()
+            bot.turnRight()
+            bot.turnRight()
+            for i in range(2):
+                bot.change("Black")
+                bot.turnLeft()
+            bot.move()
+        bot.turnRight()
+        bot.switch("Black")
+        bot.move()
+        bot.switch("White")
+        bot.move()
+        bot.move()
+        bot.turnRight()
+
+    def C(bot):
+        bot.move()
+        bot.turnLeft()
+        bot.move()
+        for i in range(3):
+            bot.change("Black")
+            bot.turnLeft()
+        bot.move()
+        bot.turnRight()
+        bot.change("Black")
+        bot.turnLeft()
+        bot.move()
+        bot.turnLeft()
+        for i in range(3):
+            bot.change("Black")
+            bot.turnRight()
+        bot.move()
+        bot.turnRight()
+        bot.move()
+        bot.move()
+        bot.turnLeft()
+        bot.move()
+        for i in range(2):
+            bot.move()
+            bot.turnRight()
+
     def run(bot):
         global running
         # This is where you do the drawing
@@ -182,13 +275,9 @@ class Bot():
         # - bot.switch(color), makes it so that when the bot moves, the tile it leaves is a different color
         #####PUT CODE BELOW HERE
         colors = ["Pink","Red","Maroon","Brown","Orange","Yellow","Lime","Green","Dark Blue","Blue","Light Blue","Purple"]
-        for c in colors:
-            bot.switch(c)
-            for i in range(20):
-                bot.move()
-            bot.turnLeft()
-            bot.move()
-            bot.turnRight()
+        bot.A()
+        bot.B()
+        bot.C()
         #####PUT CODE ABOVE HERE
         running = False
 
