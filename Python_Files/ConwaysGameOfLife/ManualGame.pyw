@@ -1,5 +1,4 @@
 import tkinter as tk
-from copy import deepcopy
 
 ##### =-=-=-=-=-= CONFIGS =-=-=-=-=-= #####
 dimensions = (32,28)
@@ -101,7 +100,8 @@ def parseIterationFreq(a,b,c):
     elif selectedFreq.get() == "0.25s": simulationTime = 250
     elif selectedFreq.get() == "0.5s": simulationTime = 500
     elif selectedFreq.get() == "1s": simulationTime = 1000
-    else: simulationTime = 2000
+    elif selectedFreq.get() == "2s": simulationTime = 2000
+    else: simulationTime = 5000
 selectedFreq.trace("w",parseIterationFreq)
 
 ### Generation Label ###
