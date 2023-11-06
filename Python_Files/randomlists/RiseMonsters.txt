@@ -3,28 +3,28 @@ Great Baggi_
 Kulu-Ya-Ku_
 Great Wroggi_
 Arzuros_
-Lagombi
-Volvidon
-Aknosom
-Royal Ludroth
+Lagombi_
+Volvidon_
+Aknosom_
+Royal Ludroth_
 Barroth_
 Daimyo Hermitaur_
-Khezu
-Tetranodon
-Bishaten
+Khezu_
+Tetranadon_
+Bishaten_
 Blood Orange Bishaten_
-Pukei-Pukei
-Jyuratodus
-Basarios
+Pukei-Pukei_
+Jyuratodus_
+Basarios_
 Somnacanth_
-Aurora Somnacanth
-Rathian
+Aurora Somnacanth_
+Rathian_
 Gold Rathian
 Barioth_
-Tobi-Kadachi
+Tobi-Kadachi_
 Mangamalo_
 Scorned Magnamalo_
-Anjanath
+Anjanath_
 Nargacuga_
 Lucent Nargacuga
 Mizutsune_
@@ -35,9 +35,9 @@ Shogun Ceanataur_
 Rathalos_
 Silver Rathalos_
 Almudron_
-Magma Almudron
+Magma Almudron_
 Zinogre_
-Lunagaron
+Lunagaron_
 Astalos_
 Espinas_
 Flaming Espinas_
