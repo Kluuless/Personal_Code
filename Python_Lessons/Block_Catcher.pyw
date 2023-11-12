@@ -8,7 +8,7 @@ window.resizable(False,False)
 window.title("Block-Catcher Game")
 canvas = tk.Canvas(window,bg="white",height=300,width=500)
 
-scoreLabel = tk.Label(window,text="Score: 0")
+scoreLabel = tk.Label(window,text="Score: 0", bg="white")
 scoreLabel.place(x=0,y=280)
 
 bar = canvas.create_rectangle(485,0,495,60,fill="green")
@@ -28,12 +28,13 @@ def gameLoop():
         if targetCoords[2]-barCoords[0] in range(0,20) and targetCoords[3]-barCoords[1] in range(0,70):
             canvas.delete(target)
             score += 1
+            scoreLabel.configure(text="Score: "+str(score))
             targets.remove(target)
         if targetCoords[0] >= 500:
             canvas.delete(target)
             score -= 1
+            scoreLabel.configure(text="Score: "+str(score))
             targets.remove(target)
-    scoreLabel.configure(text="Score: "+str(score))
     window.after(100,gameLoop)
 
 window.bind('<Motion>',mouseMove)
